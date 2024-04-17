@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    background-color: rgb(122, 229, 149);
+}
+
+#titulo{
+    height: 100px;
+    background-color: rgb(226, 43, 43);
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px; 
+    font-size: 40px;
+    
+}
+
+img{
+    float: left;
+    background-color: rgb(14, 180, 55);
+    border: 3px solid black;
+    border-radius: 100px;
+}
+
+ #historia{
+    clear: both;
+    height: 1150px;
+    background-color: rgb(14, 180, 55);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 50px; 
+    margin-top: 20px; 
+    padding-left: 25px;
+} 
+ 
+#cultura{
+    height: 1150px;
+    background-color: rgb(14, 180, 55);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 20px; 
+    padding-left: 25px; 
+} 
+
+#patri{
+    height: 970px;
+    background-color: rgb(14, 180, 55);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 20px;  
+    padding-left: 25px;
+}
+
+
+h1{
+    color: azure;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+img{
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 25%;
+
+}
+
+#ban{
+    height: 580px;
+    background-color: rgb(14, 180, 55);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 20px;  
+    text-align: center;
+  
+}
+
+
+#rodape{
+    height: 100px;
+    background-color: rgb(226, 43, 43);
+    clear: both;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-top: 20px; 
+   
+} 
