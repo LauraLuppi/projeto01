@@ -39,7 +39,7 @@ img{
 } 
  
 #cultura{
-    height: 1150px;
+    height: 1130px;
     background-color: rgb(14, 180, 55);
     width: 95%;
     margin: 0 auto;
@@ -72,18 +72,47 @@ img{
     border-radius: 20px;
     position: relative;
     left: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transition: transform 1s;
+    transform: scale(1);
+}
 
+img:hover{
+    transform: scale(0.8);
 }
 
 #ban{
     height: 580px;
     background-color: rgb(14, 180, 55);
-    width: 95%;
+    width: 97%;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 20px;  
+    text-align: center; 
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 50px;
+
+}
+
+#cit{
+     height: 480px;
+    background-color: rgb(14, 180, 55);
+    width: 97%;
     margin: 0 auto;
     border-radius: 50px;
     margin-top: 20px;  
     text-align: center;
-  
+
 }
 
 
@@ -91,7 +120,7 @@ img{
     height: 100px;
     background-color: rgb(226, 43, 43);
     clear: both;
-    width: 95%;
+    width: 96%;
     margin: 0 auto;
     text-align: center;
     border-radius: 50px;
